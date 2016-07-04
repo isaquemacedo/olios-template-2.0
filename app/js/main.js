@@ -27,13 +27,13 @@ var clearInput = function() {
 };
 
 // Função focus and blur
-var focusAndBlur = function() {
-  $('input[type=text]').focus(function() {
+var focusAndBlur = function(param) {
+  $(param).focus(function() {
     if($(this).val() === this.defaultValue){
       $(this).val('');
     }
   });
-  $('input[type=text]').blur(function() {
+  $(param).blur(function() {
     if($(this).val() === ''){
       $(this).val(this.defaultValue);
     }
@@ -45,7 +45,7 @@ $(function() {
   menuDrop('.btn-menu-drop');
   openSearch('.search');
   clearInput();
-  focusAndBlur();
+  focusAndBlur('.txtSearch');
 
   /*Slicker Settings*/
   $('.carrousel').slick({

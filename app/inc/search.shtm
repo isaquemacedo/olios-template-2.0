@@ -3,7 +3,7 @@
     <div class="content-search">
       <form>
         <div class="mask-iput">
-          <input class="txtSearch" type="search" value="TESTE">
+          <input class="txtSearch" type="search" value="Ex: Seat">
           <a class="close-input" href="javascript:void(0);">close</a>
         </div>
         <label class="clear lblSearch" for="type">Type product that you are looking for</label>
@@ -17,7 +17,8 @@
         <div class="result">
           <img class="img-result" src="../img/seat.png" alt="">
           <h3 class="title-result">DARK SEAT</h3>
-        </div>       <div class="result">
+        </div>
+        <div class="result">
           <img class="img-result" src="../img/seat2.png"  alt="">
           <h3 class="title-result">RED SEAT</h3>
         </div>
