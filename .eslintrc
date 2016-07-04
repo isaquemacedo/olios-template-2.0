@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "rules": {
+    "array-bracket-spacing": [2, "never"],
+    "block-spacing": [2, "always"],
+    "brace-style": [2, "1tbs"],
+    "camelcase": [2, {"properties": "always"}],
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "comma-style": [2, "last"],
+    "computed-property-spacing": [2, "never"],
+    "consistent-this": [2, "self"],
+    "eol-last": [2, "windows"],
+    "func-names": [0],
+    "func-style": [2, "expression"],
+    "id-blacklist": [2, "data", "err", "e", "cb", "callback"],
+    "id-length": [2, {"min": 4}],
+    "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"],
+    "indent": [2, 2],
+    "jsx-quotes": [2, "prefer-double"],
+    "quotes": [2, "single"],
+    "semi": [2, "always"],
+    "no-console": [0]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "jQuery": true,
+    "$": true,
+    "angular": true
+  },
+  "extends": "eslint:recommended"
+}

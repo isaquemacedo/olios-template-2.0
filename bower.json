@@ -1,0 +1,24 @@
+{
+  "name": "bradesco-boilerplate",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Cícero Pablo dos Santos <cicero.pablos@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^1.x",
+    "normalize-css": "^4.1.1",
+    "modernizr": "~2.8.3",
+    "respond": "^1.4.2",
+    "slick-carousel": "^1.6.0"
+  }
+}

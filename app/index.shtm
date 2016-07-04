@@ -1,0 +1,29 @@
+ <!--#include file="inc/head.shtm" -->
+  <!--#include file="inc/menu-fixed.shtm" -->
+  <div id="wrapper">
+    <div class="carrousel">
+      <div class="content">
+        <h1 class="slide-title">titulo</h1>
+        <h2 class="slide-subtitle">sub-titulo</h2>
+        <a class="btn-slide" href="javascript: void(0);">view more</a>
+      </div>
+      <div class="content">
+        <h1 class="slide-title">titulo</h1>
+        <h2 class="slide-subtitle">sub-titulo</h2>
+        <a class="btn-slide" href="javascript: void(0);">view more</a>
+      </div>
+      <div class="content">
+        <h1 class="slide-title">titulo</h1>
+        <h2 class="slide-subtitle">sub-titulo</h2>
+        <a class="btn-slide" href="javascript: void(0);">view more</a>
+      </div>
+      <div class="content">
+        <h1 class="slide-title">titulo</h1>
+        <h2 class="slide-subtitle">sub-titulo</h2>
+        <a class="btn-slide" href="javascript: void(0);">view more</a>
+      </div>
+    </div>
+  </div>
+  <!--#include file="inc/menu-drop-down.shtm" -->
+  <!--#include file="inc/search.shtm" -->
+<!--#include file="inc/foot.shtm" -->

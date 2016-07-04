@@ -1,0 +1,43 @@
+<div class="bg-mask">
+  <div class="container-search">
+    <div class="content-search">
+      <form>
+        <input class="txtSearch" type="search" placeholder="TESTE">
+        <label class="lblSearch" for="type">Type product that you are looking for</label>
+      </form>
+
+      <div id="vertical-horizontal-scrollbar-demo"  class="default-skin demo container-result">
+        <div class="result">
+          <img class="img-result" src="../img/seat2.png"  alt="">
+          <h3 class="title-result">RED SEAT</h3>
+        </div>
+        <div class="result">
+          <img class="img-result" src="../img/seat.png" alt="">
+          <h3 class="title-result">DARK SEAT</h3>
+        </div>       <div class="result">
+          <img class="img-result" src="../img/seat2.png"  alt="">
+          <h3 class="title-result">RED SEAT</h3>
+        </div>
+        <div class="result">
+          <img class="img-result" src="../img/seat.png" alt="">
+          <h3 class="title-result">DARK SEAT</h3>
+        </div>       <div class="result">
+          <img class="img-result" src="../img/seat2.png"  alt="">
+          <h3 class="title-result">RED SEAT</h3>
+        </div>
+        <div class="result">
+          <img class="img-result" src="../img/seat.png" alt="">
+          <h3 class="title-result">DARK SEAT</h3>
+        </div>       <div class="result">
+          <img class="img-result" src="../img/seat2.png"  alt="">
+          <h3 class="title-result">RED SEAT</h3>
+        </div>
+        <div class="result">
+          <img class="img-result" src="../img/seat.png" alt="">
+          <h3 class="title-result">DARK SEAT</h3>
+        </div>
+      </div>
+      <span class="result-total">1 Searched result</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.font-size(@size) {
+    @convert: (@size / 16);
+    font-size: ~"@{convert}em";
+}
+
+.line-height(@value, @context) {
+    @convert: (@value / @context);
+    line-height: ~"@{convert}em";
+}

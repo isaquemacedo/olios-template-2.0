@@ -1,0 +1,168 @@
+@import (reference) 'variables.less';
+@import 'menu-fixed.less';
+@import 'menu-drop-down.less';
+@import 'media.less';
+@import 'color.less';
+@import 'mixins.less';
+@import 'search.less';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: 0;
+}
+
+.ir {
+  text-indent: -999999px; // 100%?
+  white-space: nowrap;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+}
+
+.align-image-links {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+}
+
+#wrapper{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.align{
+  margin: 0 auto;
+  width: 1240px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.carrousel {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0 !important;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-track {
+  height: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+.slider-itens {
+  height: 420px;
+  float: left;
+  z-index: 1;
+}
+
+.content-slide{
+  width: 1200px;
+  height: 100%;
+}
+
+.slide-title{
+  .font-size(200);
+  margin-top: 50px;
+}
+
+.slide-title,
+.slide-subtitle{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.btn-slide{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  line-height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  -webkit-transition: 0.3s ease;
+
+  &:hover{
+    margin-top: 20px;
+  }
+}
+
+.myDots {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.myDots li button{
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  content: '';
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.myDots li.slick-active{
+  background-color: #0023ff;
+  border-color: #0023ff;
+}
+
+.myDots li {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #d8d8d9;
+  border-radius: 50%;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #0023ff;
+    border-color: #0023ff;
+  }
+}

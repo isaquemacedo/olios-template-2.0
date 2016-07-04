@@ -1,0 +1,11 @@
+    <!-- build:js js/vendor/others.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/slick-carousel/slick/slick.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

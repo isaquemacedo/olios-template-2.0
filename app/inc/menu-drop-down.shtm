@@ -1,0 +1,44 @@
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="icon-hamburguer" >
+      <title>hamburguer</title>
+      <path class="path1" d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+    </symbol>
+  </defs>
+</svg>
+
+
+<a class="btn-menu-drop" href="javascript:void(0);">
+  <!-- Logo -->
+  <!-- <img class="align-image-links" src="../img/hamburguer.png" height="15" width="18"> -->
+  <svg class="icone-hamburguer">
+    <use xlink:href="#icon-hamburguer"></use>
+  </svg>
+</a>
+
+<div id="container-menu-drop-down">
+  <nav class="items-navigation-drop">
+    <a class="items-menu-drop" href="javascript:void(0);">
+      LIVING ROOM
+      <img class="align-image-links" src="../img/living-room.png">
+    </a>
+    <a class="items-menu-drop" href="javascript:void(0);">
+      OFFICE
+      <img class="align-image-links" src="../img/oficce.png" height="45" width="53">
+    </a>
+    <a class="items-menu-drop" href="javascript:void(0);">
+      FOR KIDS
+      <img class="align-image-links" src="../img/for-kids.png" height="46" width="58">
+    </a>
+    <a class="items-menu-drop" href="javascript:void(0);">
+      KITCHEN
+      <img class="align-image-links" src="../img/kitchen.png" height="43" width="56">
+    </a>
+    <a class="items-menu-drop" href="javascript:void(0);">
+      ACCESORIES
+      <img class="align-image-links" src="../img/acessories.png">
+    </a>
+  </nav>
+
+  <a class="align-bottom" href="javascript:void(0);">SHOW ALL CATEGORIES</a>
+</div>

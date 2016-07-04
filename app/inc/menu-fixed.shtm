@@ -1,0 +1,24 @@
+<div id="container-menu-fixed">
+  <a class="logo" href="javascript:void(0);">
+    Logo
+    <img class="align-image-links" src="../img/logo.png">
+  </a>
+  <nav class="items-navigation">
+    <a class="items item-center" href="javascript:void(0);">
+      Home
+      <img class="align-image-links" src="../img/home.png">
+    </a>
+    <a class="items item-center" href="javascript:void(0);">
+      Carrinho de compras
+      <img class="align-image-links" src="../img/basket.png">
+    </a>
+    <a class="items item-center search" href="javascript:void(0);">
+      Busca
+      <img class="align-image-links" src="../img/search.png">
+    </a>
+    <a class="items item-bottom" href="javascript:void(0);">
+      Download
+      <img class="align-image-links" src="../img/in.png">
+    </a>
+  </nav>
+</div>
