@@ -1,5 +1,6 @@
-var menuDrop = function(classe) {
-  $(classe).click(function() {
+// Função Toogle do menu drop-down
+var menuDrop = function(param) {
+  $(param).click(function() {
     $('#container-menu-drop-down').toggle( 'slow', function() { } );
   });
 
@@ -10,16 +11,41 @@ var menuDrop = function(classe) {
   });
 };
 
-var openSearch = function(classe) {
-  $(classe).click(function() {
+// Função Toogle da tela de busca
+var openSearch = function(param) {
+  $(param).click(function() {
     $('.bg-mask').toggle( 'slow', function() { } );
   });
 };
 
-//Ready da página
+// Função clear do input text de busca
+var clearInput = function() {
+  $('.close-input').click( function() {
+    $('.txtSearch').val('');
+    $('.txtSearch').focus();
+  });
+};
+
+// Função focus and blur
+var focusAndBlur = function() {
+  $('input[type=text]').focus(function() {
+    if($(this).val() === this.defaultValue){
+      $(this).val('');
+    }
+  });
+  $('input[type=text]').blur(function() {
+    if($(this).val() === ''){
+      $(this).val(this.defaultValue);
+    }
+  });
+};
+
+// Ready da página
 $(function() {
   menuDrop('.btn-menu-drop');
   openSearch('.search');
+  clearInput();
+  focusAndBlur();
 
   /*Slicker Settings*/
   $('.carrousel').slick({

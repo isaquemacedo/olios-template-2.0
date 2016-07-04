@@ -2,8 +2,11 @@
   <div class="container-search">
     <div class="content-search">
       <form>
-        <input class="txtSearch" type="search" placeholder="TESTE">
-        <label class="lblSearch" for="type">Type product that you are looking for</label>
+        <div class="mask-iput">
+          <input class="txtSearch" type="search" value="TESTE">
+          <a class="close-input" href="javascript:void(0);">close</a>
+        </div>
+        <label class="clear lblSearch" for="type">Type product that you are looking for</label>
       </form>
 
       <div id="vertical-horizontal-scrollbar-demo"  class="default-skin demo container-result">
