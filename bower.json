@@ -19,6 +19,7 @@
     "normalize-css": "^4.1.1",
     "modernizr": "~2.8.3",
     "respond": "^1.4.2",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "masonry": "^4.1.0"
   }
 }

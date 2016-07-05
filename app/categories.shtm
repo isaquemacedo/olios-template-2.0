@@ -5,20 +5,20 @@
       <div class="categories-head">
         <h1 class="title-categories">Products</h1>
         <figure class="container-title-categories">
-          <figcaption>LIVING ROOM</figcaption>
+          <figcaption class="">LIVING ROOM</figcaption>
           <img class="icon-categories" src="img/living-room.png"alt="">
         </figure>
       </div>
       <div class="containter-products">
         <div class="product minimum"></div>
-        <div class="product medium"></div>
         <div class="product maximum"></div>
         <div class="product minimum"></div>
+        <div class="product medium"></div>
         <div class="product medium"></div>
         <div class="product maximum"></div>
       </div>
       <div class="categories-foot">
-        <a href="javascript:void(0);"></a>
+        <a href="javascript:void(0);">show more products</a>
       </div>
     </div>
   </div>
