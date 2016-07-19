@@ -58,10 +58,10 @@ $(function() {
     autoplaySpeed: 5000
   });
 
-  $('.containter-products').masonry({
-    // options
-    itemSelector: '.product .medium',
-    columnWidth: 200
-  });
+  // $('.containter-products').masonry({
+  //   // options
+  //   itemSelector: '.product',
+  //   columnWidth: 200
+  // });
 
 });

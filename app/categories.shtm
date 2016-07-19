@@ -5,7 +5,7 @@
       <div class="categories-head">
         <h1 class="title-categories">Products</h1>
         <figure class="container-title-categories">
-          <figcaption class="">LIVING ROOM</figcaption>
+          <figcaption class="breadcumb">LIVING ROOM</figcaption>
           <img class="icon-categories" src="img/living-room.png"alt="">
         </figure>
       </div>
@@ -14,11 +14,11 @@
         <div class="product maximum"></div>
         <div class="product minimum"></div>
         <div class="product medium"></div>
-        <div class="product medium"></div>
+        <div class="product minimum"></div>
         <div class="product maximum"></div>
       </div>
       <div class="categories-foot">
-        <a href="javascript:void(0);">show more products</a>
+        <a class="load-more" href="javascript:void(0);">show more products</a>
       </div>
     </div>
   </div>
